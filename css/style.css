@@ -1,0 +1,21 @@
+
+/* heder */
+/* menu */
+#menu {
+
+}
+
+.img_header {
+  line-height: 80px;
+}
+#menu img {
+  color: #569FFD;
+  display: inline-block;
+}
+
+#menu a  {
+  line-height: 80px;
+  font-size: 50px;
+  color: #005EFF;
+  display: inline-block;
+}
