@@ -21,6 +21,9 @@ a:hover {
 .deep_blue {
   color: #0b1b41;
 }
+.text_margin20 {
+  margin: 20px 0;
+}
 /* heder */
 /* menu */
 .img_header {
@@ -150,8 +153,13 @@ a:hover {
   padding: 10px 10px;
 }
 
-
-
+/* designed for dev */
+#designed_for_dev {
+  background-color: #F3F5F9;
+}
+.carosel {
+  width: 50%;
+}
 
 
 
