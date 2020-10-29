@@ -4,16 +4,15 @@ a:hover {
 /* heder */
 /* menu */
 .img_header {
+  width: 190px;
   line-height: 80px;
 }
-#menu img {
-  color: #569FFD;
-  display: inline-block;
+.img_header img {
+  width: 100%;
 }
-
 #menu a .hamburger_menu {
   line-height: 80px;
-  font-size: 50px;
+  font-size: 30px;
   color: #005EFF;
   display: inline-block;
 }
@@ -36,7 +35,7 @@ a:hover {
 .header_jumbotron {
   background-image: url('../img/jumbotron.svg');
   background-size: cover;
-  padding: 40px 0;
+  padding: 60px 0;
 }
 .header_jumbotron img {
   width: 100%;
@@ -44,14 +43,33 @@ a:hover {
 h1, h2 {
   font-weight: 700;
 }
+p {
+  font-size: 16px;
+}
+.header_jumbotron h1 {
+  color: white;
+}
+.header_jumbotron p {
+  color: #BBCDFF;
+}
 .signup_box {
   width: 100%;
-  padding: 5px;
+  padding: 50px 15px;
+  border-radius: 3px;
   background-color: white;
 }
+.signup_box h2 {
+  margin: 0;
+  font-size: 20px;
+}
+.signup_box h2:last-of-type {
+  color: #006AFF;
+  margin-top: 10px;
+}
  input {
-   width: 100%;
-   border-radius: 4px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid lightgray;
   margin: 5px 0;
   display: block;
 }
@@ -66,19 +84,45 @@ h1, h2 {
   display: block;
 }
 #btn_google {
-  color: lightgray;
+  color: #626262;
   background-color: white;
-  border: 10px shadow black;   
-}
+  border: 1px solid lightgray;
 
+}
+#btn_google i {
+  padding: 5px 5px;
+  float: left;
+}
+.signup_box span {
+  font-size: 12px;
+}
+.signup_box span a {
+  text-decoration: underline;
+}
 /* media qwery */
 @media screen and (min-width: 0px) and (min-width: 768px) {
-
+  .img_header img {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 1200px) {
-
-  #menu img {
+  /* header */
+  .img_header {
     width: 100%;
+  }
+  .img_header img {
+    width: 200px;
+  }
+
+  /* jumbotron */
+  h1 {
+    font-size: 55px;
+  }
+  .signup_box h2  {
+    font-size: 30px;
+  }
+  p {
+    font-size: 18px;
   }
 }
