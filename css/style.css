@@ -1,5 +1,25 @@
+h1 {
+  font-weight: 700;
+}
+h2 {
+  font-weight: 700;
+}
+h4 {
+  font-weight: 700;
+
+}
+p {
+  color: #455269;
+  font-size: 16px;
+}
+.small_p {
+  font-size: 14px;
+}
 a:hover {
   text-decoration: none;
+}
+.deep_blue {
+  color: #0b1b41;
 }
 /* heder */
 /* menu */
@@ -39,12 +59,6 @@ a:hover {
 }
 .header_jumbotron img {
   width: 100%;
-}
-h1, h2 {
-  font-weight: 700;
-}
-p {
-  font-size: 16px;
 }
 .header_jumbotron h1 {
   color: white;
@@ -121,7 +135,18 @@ p {
   color: #7F89A2;
 }
 
-
+/* how work */
+#how_work {
+  padding: 60px 0;
+}
+#timeline {
+  border-left: 1px solid #455269;
+  margin-bottom: 25px;
+}
+#timeline li {
+  color: #455269;
+  padding: 10px 10px;
+}
 
 
 
@@ -141,7 +166,7 @@ p {
   .img_header img {
     width: 100%;
   }
-  
+
   .container_img img {
     height: 100px;
   }
