@@ -41,16 +41,15 @@ a:hover {
   line-height: 80px;
 }
 #menu ul a {
-  color: #031C4E;
+  color: red;
 }
-#btn_signup {
+#menu ul a#btn_signup {
   padding: 6px 12px;
   border: 1px solid #569FFD;
   border-radius: 4px;
   color: #2285FD;
   cursor: pointer;
 }
-
 /* jumbotron */
 .header_jumbotron {
   background-image: url('../img/jumbotron.svg');
@@ -143,6 +142,9 @@ a:hover {
   border-left: 1px solid #455269;
   margin-bottom: 25px;
 }
+#how_work p:first-of-type {
+  margin-bottom: 30px;
+}
 #timeline li {
   color: #455269;
   padding: 10px 10px;
@@ -162,6 +164,9 @@ a:hover {
   h4 {
     font-size: 14px;
   }
+  h2 {
+    font-size: 25px;
+  }
 
   .img_header img {
     width: 100%;
@@ -177,9 +182,14 @@ a:hover {
    h4 {
     font-size: 18px;
   }
+  /* main */
+  /* barand logo */
   .container_img img {
     height: 100px;
   }
+
+  /* how work */
+
 }
 
 /* large devices */
