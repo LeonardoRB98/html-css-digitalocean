@@ -1,10 +1,8 @@
-
+a:hover {
+  text-decoration: none;
+}
 /* heder */
 /* menu */
-#menu {
-
-}
-
 .img_header {
   line-height: 80px;
 }
@@ -13,9 +11,74 @@
   display: inline-block;
 }
 
-#menu a  {
+#menu a .hamburger_menu {
   line-height: 80px;
   font-size: 50px;
   color: #005EFF;
   display: inline-block;
+}
+#menu ul {
+  font-size: 18px;
+  line-height: 80px;
+}
+#menu ul a {
+  color: #031C4E;
+}
+#btn_signup {
+  padding: 6px 12px;
+  border: 1px solid #569FFD;
+  border-radius: 4px;
+  color: #2285FD;
+  cursor: pointer;
+}
+
+/* jumbotron */
+.header_jumbotron {
+  background-image: url('../img/jumbotron.svg');
+  background-size: cover;
+  padding: 40px 0;
+}
+.header_jumbotron img {
+  width: 100%;
+}
+h1, h2 {
+  font-weight: 700;
+}
+.signup_box {
+  width: 100%;
+  padding: 5px;
+  background-color: white;
+}
+ input {
+   width: 100%;
+   border-radius: 4px;
+  margin: 5px 0;
+  display: block;
+}
+.btn_full_row {
+  width: 100%;
+  padding: 6px 0;
+  border-radius: 4px;
+  margin: 5px 0;
+  color: white;
+  background-color: #2285FD;
+  cursor: pointer;
+  display: block;
+}
+#btn_google {
+  color: lightgray;
+  background-color: white;
+  border: 10px shadow black;   
+}
+
+/* media qwery */
+@media screen and (min-width: 0px) and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+
+  #menu img {
+    width: 100%;
+  }
 }
