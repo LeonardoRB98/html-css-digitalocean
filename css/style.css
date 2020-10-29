@@ -1,12 +1,5 @@
-h1 {
+h1, h2, h4, h5 {
   font-weight: 700;
-}
-h2 {
-  font-weight: 700;
-}
-h4 {
-  font-weight: 700;
-
 }
 p {
   color: #455269;
@@ -44,7 +37,7 @@ a:hover {
   line-height: 80px;
 }
 #menu ul a {
-  color: red;
+  color: #0b1b41;
 }
 #menu ul a#btn_signup {
   padding: 6px 12px;
@@ -155,11 +148,54 @@ a:hover {
 
 /* designed for dev */
 #designed_for_dev {
+  padding: 60px 0;
   background-color: #F3F5F9;
 }
 .carosel {
   width: 50%;
+  margin: 80px auto 15px;
+  display: inline-block;
 }
+.carosel img {
+  width: 100%;
+  height: 100%;
+}
+#designed_for_dev i {
+  padding: 10px;
+  font-size: 30px;
+}
+.fake_indicator {
+  padding: 60px 0;
+}
+.fake_indicator  .circle {
+  height: 15px;
+  width: 15px;
+  border: 2px solid #006afe;
+  border-radius: 100%;
+  display: inline-block;
+}
+.fake_indicator .circle:first-child {
+  background-color: #006afe;
+}
+/* features */
+#features img {
+  margin-top: 20px;
+  background-color: #ffffff;
+}
+#features a {
+  font-weight: 500;
+  color: #006afe;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -202,7 +238,9 @@ a:hover {
 
 /* large devices */
 @media screen and (min-width: 993px) {
-
+  .fake_indicator {
+    padding: 10px 0;
+  }
 }
 
 /* extra large devices */
