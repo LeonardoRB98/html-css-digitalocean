@@ -99,13 +99,70 @@ p {
 .signup_box span a {
   text-decoration: underline;
 }
+
+/* main */
+/* brand logo */
+#brand_logo {
+  padding: 60px 0;
+  background-color: #F3F5F9;
+}
+#brand_logo .wrapper {
+  padding: 15px;
+}
+.container_img {
+  width: 100%;
+}
+.container_img img {
+  width: 100%;
+  height: 200px;
+}
+#brand_logo h4 {
+  font-weight: 700;
+  color: #7F89A2;
+}
+
+
+
+
+
+
+
+
+
 /* media qwery */
-@media screen and (min-width: 0px) and (min-width: 768px) {
+
+/* very small devices */
+@media screen and (max-width: 768px) {
+
+  h4 {
+    font-size: 14px;
+  }
+
   .img_header img {
     width: 100%;
   }
+  
+  .container_img img {
+    height: 100px;
+  }
 }
 
+/* small devices */
+@media screen and (min-width: 769px) {
+   h4 {
+    font-size: 18px;
+  }
+  .container_img img {
+    height: 100px;
+  }
+}
+
+/* large devices */
+@media screen and (min-width: 993px) {
+
+}
+
+/* extra large devices */
 @media screen and (min-width: 1200px) {
   /* header */
   .img_header {
