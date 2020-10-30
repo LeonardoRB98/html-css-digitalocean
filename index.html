@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
   <!-- Latest compiled and minified CSS -->
+  <!-- google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <!-- bootstrap 3 -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
   <!-- my css -->
   <link rel="stylesheet" href="css/style.css">
@@ -83,7 +86,6 @@
       </div>
     </div>
     <!-- /header jumbotron -->
-
   </header>
   <!-- /header -->
 
@@ -160,7 +162,9 @@
           </div>
           <div class="col-md-8">
             <div class="row">
+
               <!-- row 1 -->
+              <div class="row">
                 <div class="col-xs-12 col-md-6">
                   <img src="img/kublogoicon.svg" alt="icon">
                   <h4 class="deep_blue">Cluster deployment</h4>
@@ -171,20 +175,24 @@
                   <h4 class="deep_blue">Optimized compute types</h4>
                   <p class="small_p">Get the compute resources you need with Standard or Optimized Droplets.</p>
                 </div>
+              </div>
               <!-- row 1 -->
 
               <!-- row 2 -->
-              <div class="col-xs-12 col-md-6">
-                <img src="img/featured-AP-icon.svg" alt="icon">
-                <h4 class="deep_blue">Global availability</h4>
-                <p class="small_p">Deploy to any of our data center regions around the world.</p>
-              </div>
+              <div class="row">
+                <div class="col-xs-12 col-md-6">
+                  <img src="img/featured-AP-icon.svg" alt="icon">
+                  <h4 class="deep_blue">Global availability</h4>
+                  <p class="small_p">Deploy to any of our data center regions around the world.</p>
+                </div>
                 <div class="col-xs-12 col-md-6">
                   <img src="img/stacksplusicon.svg" alt="icon">
                   <h4 class="deep_blue">One-Click apps</h4>
                   <p class="small_p">Skip the install and configuration process with pre-build open source images supporting Rails, Cassandra, Docker, and more.</p>
                 </div>
+              </div>
               <!-- row 2 -->
+
             </div>
           </div>
         </div>
@@ -194,7 +202,7 @@
 
     <!-- designed from dev -->
     <section id="designed_for_dev" class="text-center">
-      <h2 class="deep_blue text_margin20">designed for developers</h2>
+      <h2 class="deep_blue">Designed for developers</h2>
       <p>Build more and spend less time managing your infrastructure with oru easy-to-use control panel and API.</p>
       <!-- carosello -->
       <div class="container">
@@ -211,10 +219,6 @@
               <div class="circle"></div>
               <div class="circle"></div>
               <div class="circle"></div>
-              <!-- <i class="far fa-circle"></i>
-              <i class="far fa-circle"></i>
-              <i class="far fa-circle"></i>
-              <i class="far fa-circle"></i> -->
             </div>
           </div>
         </div>
@@ -256,99 +260,103 @@
       <h2>Service you customers around the world from 12 regions.</h2>
       <div class="container">
         <div class="row">
-          <div class="col-xs-12 col-lg-6 border_bot small_text">
-            <div class="row">
-              <div class="col-xs-2 bold">AMS2</div>
-              <div class=" col-xs-offset-1 col-xs-6 text-left">Amsterdam, Netherlands</div>
-              <div class="col-xs-3 text-right"><a href="#">test speed></a></div>
+          <div class="col-md-6">
+            <div class="col-xs-12  border_bot small_text">
+              <div class="row">
+                <div class="col-xs-3 bold">AMS2</div>
+                <div class=" col-xs-4 text-left">Amsterdam, Netherlands</div>
+                <div class="col-xs-5 text-right"><a class="bold" href="#">test speed></a></div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 border_bot small_text">
+              <div class="row">
+                <div class="col-xs-3 bold">AMS3</div>
+                <div class=" col-xs-4 text-left">Amsterdam, Netherlands</div>
+                <div class="col-xs-5 text-right"><a class="bold" href="#">test speed></a></div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 border_bot small_text">
+              <div class="row">
+                <div class="col-xs-3 bold">BLR1</div>
+                <div class=" col-xs-4 text-left">Bangalore, India</div>
+                <div class="col-xs-5 text-right"><a class="bold" href="#">test speed></a></div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 border_bot small_text">
+              <div class="row">
+                <div class="col-xs-3 bold">FRA1</div>
+                <div class=" col-xs-4 text-left">Frankfurt, German</div>
+                <div class="col-xs-5 text-right"><a class="bold" href="#">test speed></a></div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 border_bot small_text">
+              <div class="row">
+                <div class="col-xs-3 bold">LON1</div>
+                <div class=" col-xs-4 text-left">London, UK</div>
+                <div class="col-xs-5 text-right"><a class="bold" href="#">test speed></a></div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 border_bot small_text">
+              <div class="row">
+                <div class="col-xs-3 bold">NYC1</div>
+                <div class=" col-xs-4 text-left text_margin30">New York, USA</div>
+                <div class="col-xs-5 text-right"><a class="bold" href="#">test speed></a></div>
+              </div>
             </div>
           </div>
 
-          <div class="col-xs-12 col-lg-6 border_bot small_text">
-            <div class="row">
-              <div class="col-xs-2 bold">AMS2</div>
-              <div class=" col-xs-offset-1 col-xs-6 text-left">Amsterdam, Netherlands</div>
-              <div class="col-xs-3 text-right"><a href="#">test speed></a></div>
+          <div class="col-md-6">
+            <div class="col-xs-12  border_bot small_text">
+              <div class="row">
+                <div class="col-xs-3 bold">AMS2</div>
+                <div class=" col-xs-4 text-left">Amsterdam, Netherlands</div>
+                <div class="col-xs-5 text-right"><a class="bold" href="#">test speed></a></div>
+              </div>
             </div>
-          </div>
 
-          <div class="col-xs-12 col-lg-6 border_bot small_text">
-            <div class="row">
-              <div class="col-xs-2 bold">AMS3</div>
-              <div class=" col-xs-offset-1 col-xs-6 text-left">Amsterdam, Netherlands</div>
-              <div class="col-xs-3 text-right"><a href="#">test speed></a></div>
+            <div class="col-xs-12 border_bot small_text">
+              <div class="row">
+                <div class="col-xs-3 bold">AMS3</div>
+                <div class=" col-xs-4 text-left">Amsterdam, Netherlands</div>
+                <div class="col-xs-5 text-right"><a class="bold" href="#">test speed></a></div>
+              </div>
             </div>
-          </div>
 
-          <div class="col-xs-12 col-lg-6 border_bot small_text">
-            <div class="row">
-              <div class="col-xs-2 bold">AMS3</div>
-              <div class=" col-xs-offset-1 col-xs-6 text-left">Amsterdam, Netherlands</div>
-              <div class="col-xs-3 text-right"><a href="#">test speed></a></div>
+            <div class="col-xs-12 border_bot small_text">
+              <div class="row">
+                <div class="col-xs-3 bold">BLR1</div>
+                <div class=" col-xs-4 text-left">Bangalore, India</div>
+                <div class="col-xs-5 text-right"><a class="bold" href="#">test speed></a></div>
+              </div>
             </div>
-          </div>
 
-          <div class="col-xs-12 col-lg-6 border_bot small_text">
-            <div class="row">
-              <div class="col-xs-2 bold">BLR1</div>
-              <div class=" col-xs-offset-1 col-xs-6 text-left">Bangalore, India</div>
-              <div class="col-xs-3 text-right"><a href="#">test speed></a></div>
+            <div class="col-xs-12 border_bot small_text">
+              <div class="row">
+                <div class="col-xs-3 bold">FRA1</div>
+                <div class=" col-xs-4 text-left">Frankfurt, German</div>
+                <div class="col-xs-5 text-right"><a class="bold" href="#">test speed></a></div>
+              </div>
             </div>
-          </div>
 
-          <div class="col-xs-12 col-lg-6 border_bot small_text">
-            <div class="row">
-              <div class="col-xs-2 bold">BLR1</div>
-              <div class=" col-xs-offset-1 col-xs-6 text-left">Bangalore, India</div>
-              <div class="col-xs-3 text-right"><a href="#">test speed></a></div>
+            <div class="col-xs-12 border_bot small_text">
+              <div class="row">
+                <div class="col-xs-3 bold">LON1</div>
+                <div class=" col-xs-4 text-left">London, UK</div>
+                <div class="col-xs-5 text-right"><a class="bold" href="#">test speed></a></div>
+              </div>
             </div>
-          </div>
 
-          <div class="col-xs-12 col-lg-6 border_bot small_text">
-            <div class="row">
-              <div class="col-xs-2 bold">FRA1</div>
-              <div class=" col-xs-offset-1 col-xs-6 text-left">Frankfurt, German</div>
-              <div class="col-xs-3 text-right"><a href="#">test speed></a></div>
-            </div>
-          </div>
-
-          <div class="col-xs-12 col-lg-6 border_bot small_text">
-            <div class="row">
-              <div class="col-xs-2 bold">FRA1</div>
-              <div class=" col-xs-offset-1 col-xs-6 text-left">Frankfurt, German</div>
-              <div class="col-xs-3 text-right"><a href="#">test speed></a></div>
-            </div>
-          </div>
-
-          <div class="col-xs-12 col-lg-6 border_bot small_text">
-            <div class="row">
-              <div class="col-xs-2 bold">LON1</div>
-              <div class=" col-xs-offset-1 col-xs-6 text-left">London, UK</div>
-              <div class="col-xs-3 text-right"><a href="#">test speed></a></div>
-            </div>
-          </div>
-
-          <div class="col-xs-12 col-lg-6 border_bot small_text">
-            <div class="row">
-              <div class="col-xs-2 bold">LON1</div>
-              <div class=" col-xs-offset-1 col-xs-6 text-left">London, UK</div>
-              <div class="col-xs-3 text-right"><a href="#">test speed></a></div>
-            </div>
-          </div>
-
-          <div class="col-xs-12 col-lg-6 border_bot small_text">
-            <div class="row">
-              <div class="col-xs-2 bold">NYC1</div>
-              <div class=" col-xs-offset-1 col-xs-6 text-left">New York, USA</div>
-              <div class="col-xs-3 text-right"><a href="#">test speed></a></div>
-            </div>
-          </div>
-
-          <div class="col-xs-12 col-lg-6 border_bot small_text">
-            <div class="row">
-              <div class="col-xs-2 bold">NYC1</div>
-              <div class=" col-xs-offset-1 col-xs-6 text-left">New York, USA</div>
-              <div class="col-xs-3 text-right"><a href="#">test speed></a></div>
+            <div class="col-xs-12 border_bot small_text">
+              <div class="row">
+                <div class="col-xs-3 bold">NYC1</div>
+                <div class=" col-xs-4 text-left text_margin30">New York, USA</div>
+                <div class="col-xs-5 text-right"><a class="bold" href="#">test speed></a></div>
+              </div>
             </div>
           </div>
         </div>
@@ -359,15 +367,17 @@
     <!-- company user -->
     <section id="company_user" class="text-center">
       <h2 class="deep_blue">Developpment teams love DigitalOcean</h2>
-      <i class="fas fa-chevron-left hidden-xs"></i>
-      <div class="box">
-        <img src="img/rockerbox.png" alt="rockerbox logo">
-        <p>"We have been alble to make scaling the technical infrastructure of our business cost effective and efficient."</p>
-        <h5 class="deep_blue">Rick O'Toole</h5>
-        <p>CO-Founder and CTO</p>
-        <a href="#">Read story</a>
+      <div id="special_box">
+        <i class="fas fa-chevron-left hidden-xs"></i>
+        <div class="box text-center">
+          <img src="img/rockerbox.png" alt="rockerbox logo">
+          <p>"We have been alble to make scaling the technical infrastructure of our business cost effective and efficient."</p>
+          <h5 class="deep_blue">Rick O'Toole</h5>
+          <p>CO-Founder and CTO</p>
+          <a href="#">Read story</a>
+        </div>
+        <i id="right" class="fas fa-chevron-right hidden-xs"></i>
       </div>
-      <i class="fas fa-chevron-right hidden-xs"></i>
       <div class="fake_indicator">
         <div class="circle"></div>
         <div class="circle"></div>
@@ -390,7 +400,7 @@
   <footer>
     <div class="container">
       <div class="row">
-        <div class="col-xs-12">
+        <div class="col-xs-12 col-lg-4">
           <div class="img_container">
             <img src="img/digitalocean-footer.svg" alt="digital ocean logo">
           </div>
@@ -404,61 +414,61 @@
             <i class="fab fa-linkedin"></i>
           </div>
         </div>
-        <div class="col-xs-12 col-md-6">
+        <div class="col-xs-12 col-md-6 col-lg-2">
           <ul class="list-unstyled text-capitalize">
-            <li><h5>company</h5></li>
-            <li>about</li>
-            <li>leadership</li>
-            <li>link</li>
-            <li>blog</li>
-            <li>careers</li>
-            <li>partner network</li>
-            <li>referral program</li>
-            <li>events</li>
-            <li>press</li>
-            <li>legal &amp; security</li>
+            <li><h5>company</h5></a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">leadership</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">blog</a></li>
+            <li><a href="#">careers</a></li>
+            <li><a href="#">partner network</a></li>
+            <li><a href="#">referral program</a></li>
+            <li><a href="#">events</a></li>
+            <li><a href="#">press</a></li>
+            <li><a href="#">legal &amp; security</a></li>
           </ul>
         </div>
 
-        <div class="col-xs-12 col-md-6">
+        <div class="col-xs-12 col-md-6 col-lg-2">
           <ul class="list-unstyled text-capitalize">
-            <li><h5>products</h5></li>
-            <li>Droplets</li>
-            <li>spaces</li>
-            <li>kubernetes</li>
-            <li>load balancers</li>
-            <li>block storage</li>
-            <li>tools &amp; intergrations</li>
-            <li>one-click apps</li>
-            <li>api</li>
-            <li>pricing</li>
-            <li>documentation</li>
-            <li>release notes</li>
+            <li><a href="#"><h5>products</h5></a></li>
+            <li><a href="#">Droplets</a></li>
+            <li><a href="#">spaces</a></li>
+            <li><a href="#">kubernetes</a></li>
+            <li><a href="#">load balancers</a></li>
+            <li><a href="#">block storage</a></li>
+            <li><a href="#">tools &amp; intergrations</a></li>
+            <li><a href="#">one-click apps</a></li>
+            <li><a href="#">api</a></li>
+            <li><a href="#">pricing</a></li>
+            <li><a href="#">documentation</a></li>
+            <li><a href="#">release notes</a></li>
           </ul>
         </div>
 
-        <div class="col-xs-12 col-md-6">
+        <div class="col-xs-12 col-md-6 col-lg-2">
           <ul class="list-unstyled text-capitalize">
-            <li><h5>Community</h5></li>
-            <li>tutorials</li>
-            <li>meetups</li>
-            <li class="text-uppercase">q&amp;a</li>
-            <li>write for donations</li>
-            <li>droplets for demons</li>
-            <li>hatch</li>
-            <li>Shop Swag</li>
-            <li>research program</li>
-            <li>currents research</li>
-            <li>open source</li>
+            <li><a href="#"><h5>Community</h5></a></li>
+            <li><a href="#">tutorials</a></li>
+            <li><a href="#">meetups</a></li>
+            <li class="text-uppercase"> <a href="#">q&amp;a</a></li>
+            <li><a href="#">write for donations</a></li>
+            <li><a href="#">droplets for demons</a></li>
+            <li><a href="#">hatch</a></li>
+            <li><a href="#">Shop Swag</a></li>
+            <li><a href="#">research program</a></li>
+            <li><a href="#">currents research</a></li>
+            <li><a href="#">open source</a></li>
           </ul>
         </div>
 
-        <div class="col-xs-12 col-md-6">
+        <div class="col-xs-12 col-md-6 col-lg-2">
           <ul class="list-unstyled text-capitalize">
-            <li><h5>support</h5></li>
-            <li>Contact support</li>
-            <li class="text-uppercase">faq</li>
-            <li>network status</li>
+            <li><a href="#"><h5>support</h5></a></li>
+            <li><a href="#">Contact support</a></li>
+            <li class="text-uppercase"><a href="#">faq</a></li>
+            <li><a href="#">network status</a></li>
           </ul>
         </div>
       </div>

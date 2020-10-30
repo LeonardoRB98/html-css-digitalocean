@@ -1,3 +1,6 @@
+* {
+  font-family: 'Lato', sans-serif;
+}
 h1, h2, h4, h5 {
   font-weight: 700;
 }
@@ -17,8 +20,8 @@ a:hover {
 .deep_blue {
   color: #0b1b41;
 }
-.text_margin20 {
-  margin: 20px 0;
+.text_margin30 {
+  margin-bottom: 30px;
 }
 .box_padding {
   padding: 10px;
@@ -157,6 +160,9 @@ a:hover {
   padding: 60px 0;
   background-color: #F3F5F9;
 }
+#designed_for_dev h2 {
+  margin: 20px 0;
+}
 .carosel {
   width: 50%;
   margin: 80px auto 15px;
@@ -203,9 +209,11 @@ a:hover {
   color: #337ab7;
 }
 .border_bot {
-  padding: 20px 30px;
-  padding-bottom: 10px;
+  padding: 10px 30px;
   border-bottom: 1px solid white;
+}
+#statistics .border_bot:nth-child(6) {
+  border: none;
 }
 .small_text {
   font-size: 12px;
@@ -222,15 +230,32 @@ a:hover {
 #company_user h2 {
   margin-top: 0;
 }
-.box {
+#special_box {
   width: 60%;
+  display: inline-block;
+  position: relative;
+}
+.box {
+  width: 80%;
   padding: 60px 0;
   margin: 60px 0 20px;
   background-color: #ffffff;
   display: inline-block;
 }
+#company_user i {
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%);
+}
+#company_user i:first-child {
+  left: 0;
+}
+#company_user i:last-child {
+  right: 0;
+}
 .box img {
-  width: 100%;
+  width: 200px;
   margin-bottom: 20px;
 }
 .box p:last-of-type {
@@ -266,7 +291,6 @@ footer {
 .img_container img {
   height: 100%;
 }
-
 footer span {
   display: block;
   font-size: 12px;
@@ -277,6 +301,15 @@ footer span {
 }
 #social_container i {
   font-size: 20px;
+}
+#social_container i:hover{
+  color: #ffffff;
+}
+footer li a {
+  color: #7F89A2;
+}
+footer li a:hover {
+  color: #ffffff;
 }
 footer li h5 {
   color: #ffffff;
@@ -304,6 +337,12 @@ footer ul li {
 
   .container_img img {
     height: 100px;
+  }
+
+  /* company user */
+  .box img {
+    width: 150px;
+    margin-bottom: 20px;
   }
 }
 
