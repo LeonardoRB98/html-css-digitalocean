@@ -215,11 +215,75 @@ a:hover {
 }
 
 /* company user */
+#company_user {
+  padding: 60px 0;
+  background-color: #F3F5F9;
+}
+#company_user h2 {
+  margin-top: 0;
+}
 .box {
-  color: red;
-  width: 50%;
+  width: 60%;
+  padding: 60px 0;
+  margin: 60px 0 20px;
+  background-color: #ffffff;
+  display: inline-block;
+}
+.box img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.box p:last-of-type {
+  margin-bottom: 20px;
+}
+.box a {
+  font-weight: 700;
 }
 
+/* donwload section */
+#download_section {
+  padding: 60px 40px;
+  background-color: #0164FF;
+}
+#download_section h2 {
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+#download_section a {
+  color: #006afe;
+}
+
+/* footer */
+footer {
+  padding: 60px 0;
+  color: #7F89A2;
+  background-color: #031C4E;
+}
+.img_container {
+  height: 40px;
+  margin-bottom: 10px;
+}
+.img_container img {
+  height: 100%;
+}
+
+footer span {
+  display: block;
+  font-size: 12px;
+  color: #7F89A2;
+}
+#social_container {
+  margin-top: 10px;
+}
+#social_container i {
+  font-size: 20px;
+}
+footer li h5 {
+  color: #ffffff;
+}
+footer ul li {
+  margin: 5px 0;
+}
 
 
 /* media qwery */
@@ -254,7 +318,7 @@ a:hover {
     height: 100px;
   }
 
-  /* how work */
+  /* company user */
 
 }
 
