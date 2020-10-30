@@ -193,16 +193,32 @@ a:hover {
   color: #006afe;
 }
 
+/* statistics */
+#statistics {
+  padding: 60px 0;
+  color: white;
+  background-color: #002DAA;
+}
+#statistics a {
+  color: #337ab7;
+}
+.border_bot {
+  padding: 20px 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+}
+.small_text {
+  font-size: 12px;
+}
+.bold {
+  font-weight: bold;
+}
 
-
-
-
-
-
-
-
-
-
+/* company user */
+.box {
+  color: red;
+  width: 50%;
+}
 
 
 
