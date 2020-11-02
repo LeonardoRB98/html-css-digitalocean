@@ -34,6 +34,16 @@ a:hover {
 }
 .img_header img {
   width: 100%;
+  cursor: pointer;
+}
+
+#menu {
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 4;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 #menu a .hamburger_menu {
   line-height: 80px;
@@ -48,6 +58,9 @@ a:hover {
 #menu ul a {
   color: #0b1b41;
 }
+#menu ul a:hover {
+  color: #569FFD;
+}
 #menu ul a#btn_signup {
   padding: 6px 12px;
   border: 1px solid #569FFD;
@@ -55,11 +68,16 @@ a:hover {
   color: #2285FD;
   cursor: pointer;
 }
+#menu ul a#btn_signup:hover {
+  color: white;
+  background-color: #569FFD;
+}
 /* jumbotron */
 .header_jumbotron {
   background-image: url('../img/jumbotron.svg');
   background-size: cover;
   padding: 60px 0;
+  margin-top: 80px;
 }
 .header_jumbotron img {
   width: 100%;
@@ -100,6 +118,10 @@ a:hover {
   background-color: #2285FD;
   cursor: pointer;
   display: block;
+}
+.btn_full_row:hover {
+  color: white;
+background-color: #1633FF;
 }
 #btn_google {
   color: #626262;
@@ -175,6 +197,7 @@ a:hover {
 #designed_for_dev i {
   padding: 10px;
   font-size: 30px;
+  cursor: pointer;
 }
 .fake_indicator {
   padding: 60px 0;
@@ -247,6 +270,7 @@ a:hover {
   position: absolute;
   top: 50%;
   transform: translate(-50%);
+  cursor: pointer;
 }
 #company_user i:first-child {
   left: 0;
@@ -301,6 +325,7 @@ footer span {
 }
 #social_container i {
   font-size: 20px;
+  cursor: pointer;
 }
 #social_container i:hover{
   color: #ffffff;
